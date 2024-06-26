@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/txtManv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Ma NV : Ph12"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/txtNhanvien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Nguyen Van An"
+        android:textStyle="bold"
+        android:textColor="#211B1B"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/txtpb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Nhan su"
+        android:textStyle="bold"
+        android:textColor="#211B1B"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btnsua"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+           android:src="@drawable/but" />
+        <ImageView
+            android:id="@+id/btnxoa"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/xoa"/>
+    </LinearLayout>
+</LinearLayout>
